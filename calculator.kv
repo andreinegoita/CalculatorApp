@@ -12,14 +12,15 @@ BoxLayout:
         bold: True
         canvas.before:
             Color:
-                rgba: 0.1, 0.1, 0.1, 1  # Fundal negru
+                rgba: 0.1, 0.1, 0.1, 1
             Rectangle:
                 pos: self.pos
                 size: self.size
 
     GridLayout:
         cols: 4
-        spacing: 5
+        padding: [10, 10]
+        spacing: 10
         size_hint: (1, 0.7)
 
         Button:
@@ -33,7 +34,7 @@ BoxLayout:
             on_press: app.on_button_press(self)
         Button:
             text: "/"
-            background_color: 0.2, 0.6, 1, 1  # Albastru
+            background_color: 0.2, 0.6, 1, 1
             on_press: app.on_button_press(self)
 
         Button:
@@ -66,16 +67,50 @@ BoxLayout:
 
         Button:
             text: "C"
-            background_color: 1, 0.3, 0.3, 1  # Roșu
+            background_color: 1, 0.3, 0.3, 1
             on_press: app.on_button_press(self)
         Button:
             text: "0"
             on_press: app.on_button_press(self)
         Button:
             text: "="
-            background_color: 0.3, 1, 0.3, 1  # Verde
+            background_color: 0.3, 1, 0.3, 1  
             on_press: app.on_button_press(self)
         Button:
             text: "+"
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+        Button:
+            text: "^"
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+        Button:
+            text: "√"
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+        Button:
+            text: "sin"
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+        Button:
+            text: "cos"
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+        Button:
+            text: "tan"
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+        Button:
+            text: "("
+            background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+        Button:
+            text: ")"
             background_color: 0.2, 0.6, 1, 1
             on_press: app.on_button_press(self)
