@@ -23,6 +23,7 @@ BoxLayout:
         spacing: 10
         size_hint: (1, 0.7)
 
+
         Button:
             text: "7"
             on_press: app.on_button_press(self)
@@ -74,12 +75,13 @@ BoxLayout:
             on_press: app.on_button_press(self)
         Button:
             text: "="
-            background_color: 0.3, 1, 0.3, 1  
+            background_color: 0.3, 1, 0.3, 1
             on_press: app.on_button_press(self)
         Button:
             text: "+"
             background_color: 0.2, 0.6, 1, 1
             on_press: app.on_button_press(self)
+
 
         Button:
             text: "^"
@@ -89,28 +91,73 @@ BoxLayout:
             text: "√"
             background_color: 0.2, 0.6, 1, 1
             on_press: app.on_button_press(self)
-
-        Button:
-            text: "sin"
-            background_color: 0.2, 0.6, 1, 1
-            on_press: app.on_button_press(self)
-
-        Button:
-            text: "cos"
-            background_color: 0.2, 0.6, 1, 1
-            on_press: app.on_button_press(self)
-
-        Button:
-            text: "tan"
-            background_color: 0.2, 0.6, 1, 1
-            on_press: app.on_button_press(self)
-
         Button:
             text: "("
             background_color: 0.2, 0.6, 1, 1
             on_press: app.on_button_press(self)
-
         Button:
             text: ")"
             background_color: 0.2, 0.6, 1, 1
+            on_press: app.on_button_press(self)
+
+
+        Button:
+            text: "sin"
+            background_color: 0.2, 0.6, 1, 1
+            id: sin
+            on_press: app.on_button_press(self)
+        Button:
+            text: "cos"
+            background_color: 0.2, 0.6, 1, 1
+            id: cos
+            on_press: app.on_button_press(self)
+        Button:
+            text: "tan"
+            background_color: 0.2, 0.6, 1, 1
+            id: tan
+            on_press: app.on_button_press(self)
+        Button:
+            text: "Mode"
+            background_color: 1, 0.5, 0, 1
+            on_press: app.on_button_press(self)
+
+
+        Button:
+            text: "log"
+            background_color: 0.5, 0.5, 0.5, 1
+            id: log
+            on_press: app.on_button_press(self)
+        Button:
+            text: "ln"
+            background_color: 0.5, 0.5, 0.5, 1
+            id: ln
+            on_press: app.on_button_press(self)
+        Button:
+            text: "exp"
+            background_color: 0.5, 0.5, 0.5, 1
+            id: exp
+            on_press: app.on_button_press(self)
+        Button:
+            text: "abs"
+            background_color: 0.5, 0.5, 0.5, 1
+            id: abs
+            on_press: app.on_button_press(self)
+
+
+        Button:
+            text: "M+"
+            background_color: 0.6, 0.2, 1, 1
+            on_press: app.on_button_press(self)
+        Button:
+            text: "MR"
+            background_color: 0.6, 0.2, 1, 1
+            on_press: app.on_button_press(self)
+        Button:
+            text: "MC"
+            background_color: 0.6, 0.2, 1, 1
+            on_press: app.on_button_press(self)
+        Button:
+            text: "fact"
+            background_color: 0.5, 0.5, 0.5, 1
+            id: fact
             on_press: app.on_button_press(self)
