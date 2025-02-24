@@ -8,10 +8,10 @@ The calculator supports basic arithmetic operations, trigonometric, logarithmic,
 
 # :hammer_and_wrench: Functionalities
  * :1234: Arithmetic operations:
-    *# :heavy_check_mark: addition (+)
-    *# :heavy_check_mark: subtraction (-)
-    *# :heavy_check_mark: multiplication (*)
-    *# :heavy_check_mark: division ( / )
+    _:heavy_check_mark: addition (+)
+    _ :heavy_check_mark: subtraction (-)
+    _ :heavy_check_mark: multiplication (*)
+    _ :heavy_check_mark: division ( / )
  * :bar_chart: Scientific functions:
     ** `sin`
     ** `cos`
