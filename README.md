@@ -47,7 +47,7 @@ The project is organized on MVC (Model-View-Controller) principles:
      * pip install kivy
 
 # :desktop_computer: Technologies and Libraries used:
-1.Python-the main language
-2.Kivy-Framework for GUI
-3.Re-library for processing the mathematical expressions
+1. Python-the main language
+2. Kivy-Framework for GUI
+3. Re-library for processing the mathematical expressions
 4. Math & Cmath- library which support for complex numbers
