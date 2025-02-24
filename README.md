@@ -24,30 +24,30 @@ The calculator supports basic arithmetic operations, trigonometric, logarithmic,
  * :arrow_up_down: Powers and Roots: Exponential and Radical.
  * Brackets for complex expressions.
  * :floppy_disk: Memory:
-   ** M+ - Saves the current value to memory.
-   ** MR - Recalls the value from memory.
-   ** MC - Clear memory.
+    M+ - Saves the current value to memory.
+    MR - Recalls the value from memory.
+    MC - Clear memory.
  *:bar_chart: Scientific mode: enable/disable advanced features.
 
 
-# Project Structure 
-  * `calculator.kv` - GUI definition using Kivy Language.
-  * `CalculatorUi.py` - Implementation of interface logic and button manipulation.
-  * `MathProcessor.py` - Processing mathematical expressions, converting them and evaluating them.
-  * `MemoryManager.py` - Computer memory management.
-  * `CalculatorApp.py` - Initializes and runs the application.
-#Design and Arhitecture
+# :books: Project Structure 
+  * :file_folder: `calculator.kv` - GUI definition using Kivy Language.
+  * :file_folder: `CalculatorUi.py` - Implementation of interface logic and button manipulation.
+  * :file_folder: `MathProcessor.py` - Processing mathematical expressions, converting them and evaluating them.
+  * :file_folder: `MemoryManager.py` - Computer memory management.
+  *  :file_folder: `CalculatorApp.py` - Initializes and runs the application.
+# :gear: Design and Arhitecture
 The project is organized on MVC (Model-View-Controller) principles:
-Model: MathProcessor.py - handles the processing of mathematical expressions.
-View: calculator.kv - defines the graphical interface.
-Controller: CalculatorUi.py - handles user interactions.
-# Installation and run the project
+ _ Model: MathProcessor.py - handles the processing of mathematical expressions.
+ _ View: calculator.kv - defines the graphical interface.
+ _ Controller: CalculatorUi.py - handles user interactions.
+# :rocket: Installation and run the project
   1. Make sure you have the version of Python 3.13.2
   2. In the IDE run in the terminal (i used `Pycharm` for this project) run:
      * pip install kivy
 
-# Technologies and Libraries used
+# :desktop_computer: Technologies and Libraries used:
 1.Python-the main language
 2.Kivy-Framework for GUI
-3.Re-for processing the mathematical expressions
-4. Math & Cmath-support for complex numbers
+3.Re-library for processing the mathematical expressions
+4. Math & Cmath- library which support for complex numbers
