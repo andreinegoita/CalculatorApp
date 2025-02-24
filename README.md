@@ -13,14 +13,14 @@ The calculator supports basic arithmetic operations, trigonometric, logarithmic,
           :heavy_check_mark: multiplication (*)
           :heavy_check_mark: division ( / )
  * :bar_chart: Scientific functions:
-    ** `sin`
-    ** `cos`
-    ** `tan`
-    ** `log`
-    ** `ln`
-    ** `exp`
-    ** `abs`
-    ** `factorial`
+     `sin`
+     `cos`
+     `tan`
+     `log`
+     `ln`
+     `exp`
+     `abs`
+     `factorial`
  * :arrow_up_down: Powers and Roots: Exponential and Radical.
  * Brackets for complex expressions.
  * :floppy_disk: Memory:
