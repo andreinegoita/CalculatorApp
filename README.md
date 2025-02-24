@@ -39,7 +39,7 @@ The calculator supports basic arithmetic operations, trigonometric, logarithmic,
 # :gear: Design and Arhitecture
 The project is organized on MVC (Model-View-Controller) principles:
  * Model: MathProcessor.py - handles the processing of mathematical expressions.
- # View: calculator.kv - defines the graphical interface.
+ * View: calculator.kv - defines the graphical interface.
  - Controller: CalculatorUi.py - handles user interactions.
 # :rocket: Installation and run the project
   1. Make sure you have the version of Python 3.13.2
