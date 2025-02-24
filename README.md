@@ -7,7 +7,7 @@ The calculator supports basic arithmetic operations, trigonometric, logarithmic,
 
 
 # :hammer_and_wrench: Functionalities
- 1 :1234: Arithmetic operations:
+ * :1234: Arithmetic operations:
           :heavy_check_mark: addition (+)
           :heavy_check_mark: subtraction (-)
           :heavy_check_mark: multiplication (*)
