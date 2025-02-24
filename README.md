@@ -44,7 +44,8 @@ The project is organized on MVC (Model-View-Controller) principles:
 # :rocket: Installation and run the project
   1. Make sure you have the version of Python 3.13.2
   2. In the IDE run in the terminal (i used `Pycharm` for this project) run:
-     * pip install kivy
+
+     ``` pip install kivy ```
 
 # :desktop_computer: Technologies and Libraries used:
 1. Python-the main language
