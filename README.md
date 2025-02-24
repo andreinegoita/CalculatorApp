@@ -54,4 +54,4 @@ The project is organized on MVC (Model-View-Controller) principles:
 4. Math & Cmath- library which support for complex numbers
 
 # :keyboard: Author
- This project is developed by `Negoita Andrei` and it was a hobby projecture to discover more about Python and Kivy
+ This project is developed by `Negoita Andrei` and it was a hobby  to discover more about Python and Kivy
