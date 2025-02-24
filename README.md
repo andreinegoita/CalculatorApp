@@ -43,12 +43,15 @@ The project is organized on MVC (Model-View-Controller) principles:
  * Controller: CalculatorUi.py - handles user interactions.
 # :rocket: Installation and run the project
   1. Make sure you have the version of Python 3.13.2
-  2. In the IDE run in the terminal (i used `Pycharm` for this project) run:
+  2. In the IDE run in the terminal (i used (Pycharm)[https://www.jetbrains.com/pycharm/] for this project) run:
 
      ``` pip install kivy ```
 
 # :desktop_computer: Technologies and Libraries used:
-1. Python-the main language
-2. Kivy-Framework for GUI
+1. (Python)[https://www.python.org/]-the main language
+2. (Kivy)[https://kivy.org/]-Framework for GUI
 3. Re-library for processing the mathematical expressions
 4. Math & Cmath- library which support for complex numbers
+
+# :keyboard: Author
+ This project is developed by `Negoita Andrei` and it was a hobby projecture to discover more about Python and Kivy
