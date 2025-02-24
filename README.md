@@ -1,21 +1,33 @@
-# CalculatorAppPython
+# :book: CalculatorAppPython
 
-# :book: About the Project
+# :pushpin: About the Project
 
 This application is a scientific calculator built using Kivy for the graphical interface and Python for processing mathematical expressions.
 The calculator supports basic arithmetic operations, trigonometric, logarithmic, factorial functions, memory storage and an activateable scientific mode.
 
 
-# Functionalities
- * Arithmetic operations: addition, subtraction, multiplication, division.
- * Scientific functions: sin, cos, tan, log, ln, exp, abs, factorial.
- * Powers and Roots: Exponential and Radical.
+# :hammer_and_wrench: Functionalities
+ * :1234: Arithmetic operations:
+    ** :heavy_check_mark: addition (+)
+    ** :heavy_check_mark: subtraction (-)
+    ** :heavy_check_mark: multiplication (*)
+    ** :heavy_check_mark: division ( / )
+ * :bar_chart: Scientific functions:
+    ** `sin`
+    ** `cos`
+    ** `tan`
+    ** `log`
+    ** `ln`
+    ** `exp`
+    ** `abs`
+    ** `factorial`
+ * :arrow_up_down: Powers and Roots: Exponential and Radical.
  * Brackets for complex expressions.
- * Memory:
+ * :floppy_disk: Memory:
    ** M+ - Saves the current value to memory.
    ** MR - Recalls the value from memory.
    ** MC - Clear memory.
- * Scientific mode: enable/disable advanced features.
+ *:bar_chart: Scientific mode: enable/disable advanced features.
 
 
 # Project Structure 
